@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="10.css">
+    <script src="10.js" defer></script>
+    <title>gradeWebsite</title>
+</head>
+
+<body>
+    <div class="btn">
+        <button onclick="history.back()">⋘</button>
+    </div>
+    <div class="container">
+        <div class="left">
+            STUDENT <br> GRADE <br> CALCY
+        </div>
+        <div class="right">
+            <input type="number" id="phy" placeholder="First Sub" required>
+            <input type="number" id="che" placeholder="Second Sub" required>
+            <input type="number" id="math" placeholder="Third Sub" required>
+            <input type="number" id="hin" placeholder="Fourth Sub" required>
+
+            <input type="number" id="eng" placeholder="Fift Sub" required>
+            <input type="number" id="art" placeholder="Six Sub" required>
+            <button id="btn" class="submitButton" onclick="calcy()">SHOW RESULT</button>
+
+        </div>
+    </div>
+
+    <div class="showData">
+        <p id="showData"> </p>
+    </div>
+
+
+
+</body>
+
+</html>

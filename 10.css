@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:arial;
+}
+body {
+    background-color: aqua;
+}
+.container {
+    width: 50vw;
+    height: 65vh;
+    margin: 0 auto 20px auto;
+    border-radius: 15px;
+    background-color: rgb(58, 54, 54);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+.left {
+    /* background-color: red; */
+    color: aqua;
+    font-weight: 750;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 5px;
+    margin-top: 140px;
+    border-left: 4px solid aqua;
+    height: fit-content;
+}
+
+.right input {
+    display: block;
+    width: 18vw;
+    margin: auto 0;
+    padding-bottom: 5px;
+    margin-top: 35px;
+    font-size: 15px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    color: #fff;
+}
+.right button {
+    color: aqua;
+    margin-top: 30px;
+    background: none;
+    font-size: 17px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+::placeholder {
+    color: #fff;
+    letter-spacing: 1px;
+}
+.showData {
+    color: aqua;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(58, 54, 54);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+.btn button {
+    font-size: 50px;
+    padding: 50px;
+    background: none;
+    border: none;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:1000px) {
+    .container {
+        width: 320px;
+        height: 480px;
+        margin:50px auto;
+    }
+    .container {
+        display: block;
+        justify-content:center;
+        align-items: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .left {
+        /* background-color: red; */
+        font-weight: 750;
+        font-size: 18px;
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top:0;
+        border-left: none;
+    }
+    
+    .right input {
+        width: 260px;
+        margin: 20px;
+        margin-top: 30px;
+        font-size: 13px;
+    }
+    .right button {
+        margin-top: 30px;
+        margin: auto ;
+        font-size: 13px;
+        padding: 7px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    ::placeholder {
+        padding-left: 3px;
+    }
+    .btn button {
+        font-size: 35px;
+        padding: 20px;
+    }
+
+}
