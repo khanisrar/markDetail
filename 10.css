@@ -78,17 +78,15 @@ body {
     margin-bottom: 20px;
 }
 @media screen and (max-width:1000px) {
+    
     .container {
         width: 320px;
         height: 480px;
-        margin:50px auto;
-    }
-    .container {
         display: block;
         justify-content:center;
         align-items: center;
         padding: 0;
-        margin: 0 auto;
+        margin: 0 auto 30px auto;
     }
     .left {
         /* background-color: red; */

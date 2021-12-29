@@ -53,7 +53,7 @@ const calcy = () => {
 
     for (let sub of subjects) {
         sub.value = ''
-        physics.focus();
+        // physics.focus();
     }
 }
 

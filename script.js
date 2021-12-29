@@ -12,8 +12,6 @@ physics.focus();
 
 const submitButton = document.querySelector('.submitButton')
 
-
-
 const calcy = () => {
 
     if (isAllSubjectMarkEntered()) {
@@ -52,7 +50,7 @@ const calcy = () => {
 
     for (let sub of subjects) {
         sub.value = ''
-        physics.focus();
+        // physics.focus();
     }
 }
 
